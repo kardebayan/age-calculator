@@ -27,11 +27,12 @@
 
 .input-box {
     margin: 40px 0;
-    padding: 35px;
+    padding: 60px;
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.3);
     display: flex;
     align-items: center;
+
 }
 
 .input-box input {
@@ -79,6 +80,10 @@
     color: #ffff76;
 }
 
+h3 {
+    position: absolute;
+    margin-bottom: 105px;
+}
 @media (max-width: 768px) {
     .calculator {
         margin-left: 2%;
@@ -89,11 +94,17 @@
         font-size: 40px;
     }
 
+
     .input-box {
         flex-direction: column;
-        padding: 20px;
+        padding: 35px;
         margin-right: 30px;
     }
+
+    h3 {
+    position: absolute;
+    margin-top: -20px;
+}
 
     .input-box input,
     .input-box button {
